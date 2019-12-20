@@ -1,6 +1,57 @@
 {
     "applications": [
         {
+            "short_description": "Music Bar is macOS application that places music controls right in your menu bar.",
+            "categories": [
+                "audio",
+                "music",
+                "menubar",
+                "utilities"
+            ],
+            "repo_url": "https://github.com/musa11971/Music-Bar/",
+            "title": "Music Bar",
+            "icon_url": "https://raw.githubusercontent.com/musa11971/Music-Bar/master/docs/images/logo.png",
+            "screenshots": [
+               "https://musa11971.github.io/Music-Bar/images/app-ogp-img.png"
+            ],
+            "official_site": "https://musa11971.github.io/Music-Bar/",
+            "languages": [
+                "swift"
+            ]
+        },
+        {
+            "short_description": "simple drag-and-drop, password-based file encryption.",
+            "categories": [
+                "security"
+            ],
+            "repo_url": "https://github.com/spieglt/cloaker",
+            "title": "Cloaker",
+            "icon_url": "https://raw.githubusercontent.com/spieglt/Cloaker/master/gui/cloaker/cloaker.ico",
+            "screenshots": [
+                "https://github.com/spieglt/Cloaker/blob/master/demo.gif"
+            ],
+            "official_site": "https://adequate.systems/",
+            "languages": [
+                "rust"
+            ]
+        },
+        {
+            "short_description": "cross-platform file transfer over ad-hoc wifi, like AirDrop but for Mac/Windows/Linux.",
+            "categories": [
+                "utilities"
+            ],
+            "repo_url": "https://github.com/spieglt/flyingcarpet",
+            "title": "Flying Carpet",
+            "icon_url": "https://raw.githubusercontent.com/spieglt/FlyingCarpet/master/icons/Windows/fc.ico",
+            "screenshots": [
+                "https://raw.githubusercontent.com/spieglt/FlyingCarpet/master/pictures/macDemo.png"
+            ],
+            "official_site": "https://adequate.systems/",
+            "languages": [
+                "go"
+            ]
+        },
+        {
             "short_description": "manage bluetooth connections with your keyboard.",
             "categories": [
                 "utilities"
@@ -31,6 +82,22 @@
             ]
         },
         {
+            "short_description": "A CLI workflow for the administration of macOS applications distributed as binaries",
+            "categories": [
+                "utilities"
+            ],
+            "repo_url": "https://github.com/Homebrew/homebrew-cask",
+            "title": "homebrew-cask",
+            "icon_url": "https://brew.sh/assets/img/homebrew-256x256.png",
+            "screenshots": [
+                "https://camo.githubusercontent.com/e0232f054269f4da8df572c3dea4f08def189df3/68747470733a2f2f692e696d6775722e636f6d2f626a723855785a2e676966"
+            ],
+            "official_site": "https://brew.sh/",
+            "languages": [
+                "ruby"
+            ]
+        },
+        {
             "short_description": "Application which hosts AudioUnits v3 using AVFoundation API. ",
             "categories": [
                 "audio"
@@ -46,6 +113,25 @@
             "official_site": "",
             "languages": [
                 "swift"
+            ]
+        },
+         {
+            "short_description": "Clementine is a modern music player and library organizer for Windows, Linux and macOS. ",
+            "categories": [
+                "audio"
+            ],
+            "repo_url": "https://github.com/clementine-player/Clementine",
+            "title": "Clementine",
+            "icon_url": "https://raw.githubusercontent.com/clementine-player/Clementine/master/dist/clementine_128.png",
+            "screenshots": [
+                "https://clementine-player.github.io/pages/images/screenshots/clementine-1.2-1.png",
+                "https://clementine-player.github.io/pages/images/screenshots/clementine-1.2-2.png",
+                "https://clementine-player.github.io/pages/images/screenshots/clementine-1.2-3.png",
+                "https://clementine-player.github.io/pages/images/screenshots/clementine-1.2-4.png"
+            ],
+            "official_site": "https://www.clementine-player.org/",
+            "languages": [
+                "cpp"
             ]
         },
         {
@@ -496,7 +582,7 @@
             "categories": [
                 "browser"
             ],
-            "repo_url": "https://github.com/brave/browser-laptop",
+            "repo_url": "https://github.com/brave/brave-browser",
             "title": "Brave Browser",
             "icon_url": "",
             "screenshots": [],
@@ -599,19 +685,19 @@
             ]
         },
         {
-            "short_description": " Mac app wrapper around Google's stand-alone Android Messenger. ",
+            "short_description": "Powerful XMPP client with support for file transfer, VoIP and end-to-end encryption.",
             "categories": [
                 "chat"
             ],
-            "repo_url": "https://github.com/jake-101/android-messenger-mac",
-            "title": "Android Messenger Mac",
-            "icon_url": "",
+            "repo_url": "https://github.com/tigase/beagle-im",
+            "title": "Beagle IM",
+            "icon_url": "https://raw.githubusercontent.com/tigase/beagle-im/master/BeagleIM/Assets.xcassets/AppIcon.appiconset/IMG_0720_32.png",
             "screenshots": [
-                "https://i.imgur.com/GQiLntX.jpg"
+                "https://beagle.im/img/services/darkOrLight.png"
             ],
-            "official_site": "",
+            "official_site": "https://beagle.im/",
             "languages": [
-                "javascript"
+                "swift"
             ]
         },
         {
@@ -865,23 +951,6 @@
             ]
         },
         {
-            "short_description": "macOS app to safely generate cryptocurrency address. ",
-            "categories": [
-                "cryptocurrency"
-            ],
-            "repo_url": "https://github.com/onmyway133/AddressGenerator",
-            "title": "AddressGenerator",
-            "icon_url": "",
-            "screenshots": [
-                "https://raw.githubusercontent.com/onmyway133/AddressGenerator/master/Screenshots/demo.png",
-                "https://raw.githubusercontent.com/onmyway133/AddressGenerator/master/Screenshots/Artboard.png"
-            ],
-            "official_site": "",
-            "languages": [
-                "swift"
-            ]
-        },
-        {
             "short_description": "App for all the world’s currencies. ",
             "categories": [
                 "cryptocurrency"
@@ -914,6 +983,22 @@
             "official_site": "",
             "languages": [
                 "swift"
+            ]
+        },
+        {
+            "short_description": "A secure bitcoin wallet platform for both desktop and mobile devices. ",
+            "categories": [
+                "cryptocurrency"
+            ],
+            "repo_url": "https://github.com/bitpay/copay",
+            "title": "Copay",
+            "icon_url": "",
+            "screenshots": [
+                "https://raw.githubusercontent.com/bitpay/copay/master/resources/copay/windows/icon/Wide310x150Logo.scale-100.png"
+            ],
+            "official_site": "",
+            "languages": [
+                "type_script"
             ]
         },
         {
@@ -1253,7 +1338,7 @@
         {
             "short_description": "macOS application to comfortably browse and search through your Messages.app history. ",
             "categories": [
-                "git"
+                "chat"
             ],
             "repo_url": "https://github.com/glaurent/MessagesHistoryBrowser",
             "title": "MessagesHistoryBrowser",
@@ -1274,7 +1359,7 @@
             "icon_url": "",
             "screenshots": [
                 "https://raw.githubusercontent.com/jamieweavis/streaker/master/screenshots/menu-bar.png",
-                "https://raw.githubusercontent.com/jamieweavis/streaker/master/screenshots/preferences-window.png"
+                "https://raw.githubusercontent.com/jamieweavis/streaker/master/screenshots/preferences.png"
             ],
             "official_site": "",
             "languages": [
@@ -1328,6 +1413,22 @@
             "official_site": "",
             "languages": [
                 "swift"
+            ]
+        },
+        {
+            "short_description": "Full feature terminal based sequence editor for interactive rebase.",
+            "categories": [
+                "git"
+            ],
+            "repo_url": "https://github.com/MitMaro/git-interactive-rebase-tool",
+            "title": "Git Interactive Rebase Tool",
+            "icon_url": "",
+            "screenshots": [
+                "https://raw.githubusercontent.com/MitMaro/git-interactive-rebase-tool/master/docs/assets/images/git-interactive-rebase-demo.gif"
+            ],
+            "official_site": "https://gitrebasetool.mitmaro.ca/",
+            "languages": [
+                "rust"
             ]
         },
         {
@@ -2062,11 +2163,29 @@
             ]
         },
         {
+            "short_description": "HTTP Toolkit is a cross-platform tool to intercept, debug & mock HTTP. ",
+            "categories": [
+                "web-development"
+            ],
+            "repo_url": "https://github.com/httptoolkit/httptoolkit-desktop",
+            "title": "HTTP Toolkit",
+            "icon_url": "https://httptoolkit.tech/icon-600.png",
+            "screenshots": [
+                "https://raw.githubusercontent.com/httptoolkit/httptoolkit.tech/master/src/images/inspect-screenshot.png",
+                "https://raw.githubusercontent.com/httptoolkit/httptoolkit.tech/master/src/images/intercept-screenshot.png",
+                "https://raw.githubusercontent.com/httptoolkit/httptoolkit.tech/master/src/images/edit-screenshot.png"
+            ],
+            "official_site": "https://httptoolkit.tech/mock/",
+            "languages": [
+                "type_script"
+            ]
+        },
+        {
             "short_description": "Insomnia is a cross-platform REST client, built on top of Electron. ",
             "categories": [
                 "web-development"
             ],
-            "repo_url": "https://github.com/getinsomnia/insomnia",
+            "repo_url": "https://github.com/Kong/insomnia",
             "title": "Insomnia",
             "icon_url": "",
             "screenshots": [
@@ -2128,7 +2247,7 @@
             "categories": [
                 "web-development"
             ],
-            "repo_url": "https://github.com/BurntCaramel/Lantern",
+            "repo_url": "https://github.com/RoyalIcing/Lantern",
             "title": "Lantern",
             "icon_url": "",
             "screenshots": [],
@@ -2615,6 +2734,23 @@
             ]
         },
         {
+            "short_description": "This Xcode extension enables you to make a code selection and export it to a snippets. Available on Mac AppStore.",
+            "categories": [
+                "extensions"
+            ],
+            "repo_url": "https://github.com/bow-swift/nef-plugin",
+            "title": "nef",
+            "icon_url": "https://raw.githubusercontent.com/bow-swift/bow-art/master/assets/nef-brand-xcode-shadow.png",
+            "screenshots": [
+                "https://raw.githubusercontent.com/bow-swift/nef-plugin/master/assets/nef-plugin-action-export.png",
+                "https://raw.githubusercontent.com/bow-swift/nef-plugin/master/assets/nef-plugin-action-snippet.png"
+            ],
+            "official_site": "https://nef.bow-swift.io/",
+            "languages": [
+                "swift"
+            ]
+        },
+        {
             "short_description": "Clipy is a Clipboard extension app for macOS. ",
             "categories": [
                 "finder"
@@ -2982,7 +3118,7 @@
             ]
         },
         {
-            "short_description": "Oni is a modern take on modal editing code editor focused on developer productivity. ![javascript_icon]",
+            "short_description": "Oni is a modern take on modal editing code editor focused on developer productivity. ",
             "categories": [
                 "ide"
             ],
@@ -3040,6 +3176,24 @@
             "official_site": "",
             "languages": [
                 "swift"
+            ]
+        },
+        {
+            "short_description": "Remove image metadata with drag and drop, multi-core batch processing, and dark mode.",
+            "categories": [
+                "images"
+            ],
+            "repo_url": "https://github.com/szTheory/exifcleaner",
+            "title": "ExifCleaner",
+                "icon_url": "https://exifcleaner.com/images/icon.png",
+            "screenshots": [
+                "https://exifcleaner.com/images/screenshot.png",
+                "https://exifcleaner.com/images/batchprocessing.png",
+                "https://exifcleaner.com/images/darkmode.png"
+            ],
+            "official_site": "https://exifcleaner.com",
+            "languages": [
+                "javascript"
             ]
         },
         {
@@ -3260,7 +3414,7 @@
             "categories": [
                 "keyboard"
             ],
-            "repo_url": "https://github.com/tekezo/Karabiner-Elements",
+            "repo_url": "https://github.com/pqrs-org/Karabiner-Elements",
             "title": "Karabiner-Elements",
             "icon_url": "",
             "screenshots": [],
@@ -3305,6 +3459,23 @@
             ]
         },
         {
+            "short_description": "A software attempt to address the \"double key press\" issue on Apple's butterfly keyboard ",
+            "categories": [
+                "keyboard"
+            ],
+            "repo_url": "https://github.com/aahung/Unshaky",
+            "title": "Unshaky",
+            "icon_url": "",
+            "screenshots": [
+                "https://github.com/aahung/Unshaky/blob/master/README/menubar.png",
+                "https://github.com/aahung/Unshaky/blob/master/README/how-unshaky-works.png"
+            ],
+            "official_site": "https://unshaky.nestederror.com/",
+            "languages": [
+                "swift"
+            ]
+        },
+        {
             "short_description": "Menubar/taskbar Gmail App for Windows and macOS. ",
             "categories": [
                 "mail"
@@ -3336,37 +3507,6 @@
             ]
         },
         {
-            "short_description": "Unofficial Google Inbox Desktop App.",
-            "categories": [
-                "mail"
-            ],
-            "repo_url": "https://github.com/denysdovhan/inboxer",
-            "title": "Inboxer",
-            "icon_url": "",
-            "screenshots": [],
-            "official_site": "",
-            "languages": [
-                "javascript",
-                "css"
-            ]
-        },
-        {
-            "short_description": "Wrapper for Inbox by Gmail. ",
-            "categories": [
-                "mail"
-            ],
-            "repo_url": "https://github.com/chenasraf/gInbox",
-            "title": "gInbox",
-            "icon_url": "",
-            "screenshots": [
-                "http://i.imgur.com/ZxaChmj.png"
-            ],
-            "official_site": "",
-            "languages": [
-                "swift"
-            ]
-        },
-        {
             "short_description": "Extensible mail client. ",
             "categories": [
                 "mail"
@@ -3393,6 +3533,25 @@
             "languages": [
                 "javascript",
                 "css"
+            ]
+        },
+        {
+            "short_description": "3D medical imaging reconstruction software",
+            "categories": [
+                "medical",
+                "images"
+            ],
+            "repo_url": "https://github.com/invesalius/invesalius3/",
+            "title": "InVesalius",
+            "icon_url": "",
+            "screenshots": [
+                "https://raw.githubusercontent.com/wiki/invesalius/invesalius3/figures/screen_1.png",
+                "https://raw.githubusercontent.com/wiki/invesalius/invesalius3/figures/screen_2.png",
+                "https://raw.githubusercontent.com/wiki/invesalius/invesalius3/figures/screen_3.png"
+            ],
+            "official_site": "https://www.cti.gov.br/pt-br/invesalius",
+            "languages": [
+                "python"
             ]
         },
         {
@@ -4378,14 +4537,14 @@
             "title": "Ao",
             "icon_url": "",
             "screenshots": [
-                "https://klaussinani.github.io/ao/media/list-navigation.gif",
-                "https://klaussinani.github.io/ao/media/header.png",
-                "https://klaussinani.github.io/ao/media/sepia-theme.png",
-                "https://klaussinani.github.io/ao/media/black-theme.png",
-                "https://klaussinani.github.io/ao/media/dark-theme.png",
-                "https://klaussinani.github.io/ao/media/compact-mode.png",
-                "https://klaussinani.github.io/ao/media/custom-shortcut-keys.gif",
-                "https://klaussinani.github.io/ao/media/scalable-interface.gif"
+                "https://klaussinani.tech/ao/media/list-navigation.gif",
+                "https://klaussinani.tech/ao/media/header.png",
+                "https://klaussinani.tech/ao/media/sepia-theme.png",
+                "https://klaussinani.tech/ao/media/black-theme.png",
+                "https://klaussinani.tech/ao/media/dark-theme.png",
+                "https://klaussinani.tech/ao/media/compact-mode.png",
+                "https://klaussinani.tech/ao/media/custom-shortcut-keys.gif",
+                "https://klaussinani.tech/ao/media/scalable-interface.gif"
             ],
             "official_site": "",
             "languages": [
@@ -4463,6 +4622,22 @@
             "official_site": "",
             "languages": [
                 "objective_c"
+            ]
+        },
+        {
+            "short_description": "Cross-platform Text Expander, a powerful replacement for Alfred Snippets",
+            "categories": [
+                "productivity"
+            ],
+            "repo_url": "https://github.com/federico-terzi/espanso",
+            "title": "espanso",
+            "screenshots": [
+                "https://raw.githubusercontent.com/federico-terzi/espanso/master/images/example.gif"
+            ],
+            "icon_url": "",
+            "official_site": "https://espanso.org",
+            "languages": [
+                "rust"
             ]
         },
         {
@@ -4601,7 +4776,7 @@
             ]
         },
         {
-            "short_description": "Write anything in a matter of seconds. Create snippets that can substitute text, execute tedious tasks and more. ![javascript_icon]",
+            "short_description": "Write anything in a matter of seconds. Create snippets that can substitute text, execute tedious tasks and more. ",
             "categories": [
                 "productivity"
             ],
@@ -4696,7 +4871,7 @@
             "categories": [
                 "productivity"
             ],
-            "repo_url": "https://github.com/toggl/toggldesktop/tree/app-store-release-v7.3.319",
+            "repo_url": "",
             "title": "Toggl Desktop",
             "icon_url": "",
             "screenshots": [],
@@ -4912,6 +5087,20 @@
             ]
         },
         {
+            "short_description": "Transferring files from one device to another",
+            "categories": [
+                "sharing-files"
+            ],
+            "repo_url": "https://github.com/nitroshare/nitroshare-desktop",
+            "title": "NitroShare",
+            "icon_url": "",
+            "screenshots": [],
+            "official_site": "https://nitroshare.net",
+            "languages": [
+                "cpp"
+            ]
+        },
+        {
             "short_description": "BitTorrent client in Qt. ",
             "categories": [
                 "sharing-files"
@@ -5046,7 +5235,7 @@
             "categories": [
                 "social-networking"
             ],
-            "repo_url": "https://github.com/producthunt/producthunt-osx) - Official Product Hunt app for macO",
+            "repo_url": "https://github.com/producthunt/producthunt-osx",
             "title": "Product Hunt",
             "icon_url": "",
             "screenshots": [],
@@ -5118,6 +5307,20 @@
             ]
         },
         {
+            "short_description": "Free and open source software for live streaming and screen recording. ",
+            "categories": [
+                "streaming"
+            ],
+            "repo_url": "https://github.com/obsproject/obs-studio",
+            "title": "OBS Studio",
+            "icon_url": "",
+            "screenshots": [],
+            "official_site": "https://obsproject.com/",
+            "languages": [
+                "cpp"
+            ]
+        },
+        {
             "short_description": "Advanced battery gauge for macOS. ",
             "categories": [
                 "system"
@@ -5140,7 +5343,7 @@
             "categories": [
                 "system"
             ],
-            "repo_url": "https://github.com/fuyu/AppPolice",
+            "repo_url": "https://github.com/AppPolice/AppPolice",
             "title": "AppPolice",
             "icon_url": "",
             "screenshots": [
@@ -5553,20 +5756,6 @@
             ]
         },
         {
-            "short_description": "Mounts archives like disk images ",
-            "categories": [
-                "utilities"
-            ],
-            "repo_url": "https://github.com/ivoronin/ArchiveMounter",
-            "title": "Archive Mounter",
-            "icon_url": "",
-            "screenshots": [],
-            "official_site": "",
-            "languages": [
-                "swift"
-            ]
-        },
-        {
             "short_description": "Control web based media players with the media keys found on Mac keyboards. ",
             "categories": [
                 "utilities"
@@ -5774,7 +5963,6 @@
             "title": "Lunar",
             "icon_url": "",
             "screenshots": [
-                "https://raw.githubusercontent.com/alin23/lunar/master/lunar.gif"
             ],
             "official_site": "",
             "languages": [
@@ -5808,7 +5996,7 @@
             "screenshots": [
                 "https://camo.githubusercontent.com/2ec00a08b476bb6b62b64b1813e0b608dd819d6d/68747470733a2f2f692e696d6775722e636f6d2f483338735073662e706e67"
             ],
-            "official_site": "https://stojkovic.dev/",
+            "official_site": "",
             "languages": [
                 "swift"
             ]
@@ -5897,6 +6085,24 @@
             "official_site": "",
             "languages": [
                 "javascript"
+            ]
+        },
+        {
+            "short_description": "Cross-platform password management solutions for individuals, teams, and business organizations. ",
+            "categories": [
+                "utilities"
+            ],
+            "repo_url": "https://github.com/bitwarden/desktop",
+            "title": "Bitwarden",
+            "icon_url": "https://raw.githubusercontent.com/bitwarden/brand/master/icons/256x256.png",
+            "screenshots": [
+                "https://raw.githubusercontent.com/bitwarden/brand/master/screenshots/desktop-macos-vault.png",
+                "https://raw.githubusercontent.com/bitwarden/brand/master/screenshots/mobile-ios-myvault.png",
+                "https://raw.githubusercontent.com/bitwarden/brand/master/screenshots/cli-macos.png"
+            ],
+            "official_site": "https://bitwarden.com/",
+            "languages": [
+                "type_script"
             ]
         },
         {
@@ -6180,6 +6386,20 @@
             ]
         },
         {
+            "short_description": "Video conferencing server for H.323 terminals. ",
+            "categories": [
+                "video"
+            ],
+            "repo_url": "https://github.com/willamowius/gnugk",
+            "title": "GNU Gatekeeper",
+            "icon_url": "https://avatars2.githubusercontent.com/u/6840544?s=460&v=4",
+            "screenshots": [],
+            "official_site": "https://www.gnugk.org",
+            "languages": [
+                "cpp"
+            ]
+        },
+        {
             "short_description": "Turn any short video into an animated GIF quickly and easily. ",
             "categories": [
                 "video"
@@ -6310,13 +6530,12 @@
             ]
         },
         {
-            "short_description": "Modern video player for macOS. ",
+            "short_description" : "The modern video player for macOS. ",
             "categories": [
                 "player"
             ],
             "repo_url": "https://github.com/iina/iina",
             "title": "IINA",
-            "short_description" : "The modern video player for macOS.",
             "icon_url": "https://raw.githubusercontent.com/iina/iina/master/iina/Assets.xcassets/AppIcon.appiconset/256-1.png",
             "screenshots": [],
             "official_site": "https://iina.io",
@@ -6822,22 +7041,6 @@
             ]
         },
         {
-            "short_description": "📱 Navigate to your app folders quickly.",
-            "categories": [
-                "ios--macos"
-            ],
-            "repo_url": "https://github.com/onmyway133/Simulator",
-            "title": "Simulator",
-            "icon_url": "",
-            "screenshots": [
-                "https://raw.githubusercontent.com/onmyway133/Simulator/master/Screenshots/simulator.png"
-            ],
-            "official_site": "",
-            "languages": [
-                "swift"
-            ]
-        },
-        {
             "short_description": "💻 Medis is a beautiful, easy-to-use Mac database management application for Redis.",
             "categories": [
                 "database"
@@ -7040,6 +7243,293 @@
                 "https://rectangleapp.com/images/ScreenShot.png"
             ],
             "official_site": "https://rectangleapp.com",
+            "languages": [
+                "swift"
+            ]
+        },
+        {
+            "short_description": "Hide MacOS menubar items.",
+            "categories": [
+                "menubar"
+            ],
+            "repo_url": "https://github.com/Mortennn/Dozer",
+            "title": "Dozer",
+            "icon_url": "https://raw.githubusercontent.com/Mortennn/Dozer/master/Stuff/AppIcon.png",
+            "screenshots": [
+                "https://raw.githubusercontent.com/Mortennn/Dozer/master/Stuff/demo.gif"
+            ],
+            "official_site": "https://dozermac.com",
+            "languages": [
+                "swift"
+            ]
+        },
+        {
+            "short_description": "Free, open source, cross-platform audio software",
+            "categories": [
+                "music"
+            ],
+            "repo_url": "https://github.com/audacity/audacity",
+            "title": "Audacity",
+            "icon_url": "https://avatars3.githubusercontent.com/u/11648186?s=200&v=4",
+            "screenshots": [
+                "https://www.audacityteam.org/wp-content/uploads/2017/12/Audacity-220-Mac-normal.png"
+            ],
+            "official_site": "https://www.audacityteam.org/",
+            "languages": [
+                "c"
+            ]
+        },
+         {
+            "short_description": "Create beautiful musical scores with LilyPond",
+            "categories": [
+                "music"
+            ],
+            "repo_url": "",
+            "title": "Lilypond UI",
+            "icon_url": "https://raw.githubusercontent.com/doches/lilypond-ui/develop/artwork/icons.iconset/icon_512x512.png",
+            "screenshots": [
+                "https://raw.githubusercontent.com/doches/lilypond-ui/develop/docs/lilypond-ide.png"
+            ],
+            "official_site": "https://github.com/doches/lilypond-ui",
+            "languages": [
+                "javascript"
+            ]
+        },
+        {
+            "short_description": "Extend pages with your own CSS and JS files.",
+            "categories": [
+                "extensions"
+            ],
+            "repo_url": "https://github.com/fphilipe/PageExtender.app",
+            "title": "PageExtender",
+            "icon_url": "https://raw.githubusercontent.com/fphilipe/PageExtender.app/master/Source/Host/Assets.xcassets/AppIcon.appiconset/256%402x.png",
+            "screenshots": [
+                "https://phili.pe/posts/introducing-page-extender-for-safari/app.png"
+            ],
+            "official_site": "",
+            "languages": [
+                "swift",
+                "javascript"
+            ]
+         },
+         {
+            "short_description": "Automatically mute the sound when headphones disconnect / Mac awake from sleep.",
+            "categories": [
+                "audio"
+            ],
+            "repo_url": "https://github.com/yonilevy/automute",
+            "title": "AutoMute",
+            "icon_url": "https://raw.githubusercontent.com/yonilevy/automute/master/automute/Assets.xcassets/AppIcon.appiconset/icon256.png",
+            "screenshots": [
+                "https://user-images.githubusercontent.com/31284/49688097-ac653900-fb15-11e8-9c48-3db96df5dcbf.png",
+                "https://user-images.githubusercontent.com/31284/49688098-ae2efc80-fb15-11e8-8034-14c67fb69d90.png"
+            ],
+            "official_site": "https://yoni.ninja/automute/",
+            "languages": [
+                "objective_c"
+            ]
+        },
+        {
+            "short_description": "BlackHole is a modern macOS virtual audio driver that allows applications to pass audio to other applications with zero additional latency.",
+            "categories": [
+                "audio"
+            ],
+            "repo_url": "https://github.com/ExistentialAudio/BlackHole",
+            "title": "BlackHole",
+            "icon_url": "",
+            "screenshots": [],
+            "official_site": "",
+            "languages": [
+                "c"
+            ]
+        },
+              {
+            "short_description": "Cog is an open source audio player for macOS. The basic layout is a single-paned playlist interface with two retractable drawers, one for navigating the user's music folders and another for viewing audio file properties, like bitrate",
+            "categories": [
+                "audio"
+            ],
+            "repo_url": "https://bitbucket.org/losnoco/cog/src",
+            "title": "Cog",
+            "icon_url": "",
+            "screenshots": [],
+            "official_site": "http://cogx.org/",
+            "languages": [
+                "objective_c"
+            ]
+        },
+        {
+            "short_description" : "Command-line tool to search files with SQL syntax.",
+            "categories" : [
+                "utilities"
+            ],
+            "repo_url" : "https://github.com/jhspetersson/fselect",
+            "title" : "fselect",
+            "icon_url": "",
+            "screenshots": [],
+            "official_site" : "",
+            "languages" : [
+                "rust"
+            ]
+        },
+        {
+            "short_description": "Cross-platform development IDE",
+            "categories": [
+                "ide"
+            ],
+            "repo_url": "https://github.com/livecode/livecode",
+            "title": "LiveCode",
+            "icon_url": "https://livecode.com/wp-content/uploads/2016/05/newdarklogo.png",
+            "screenshots": [],
+            "official_site": "https://livecode.org/",
+            "languages": [
+                "c"
+            ]
+        },
+        {
+            "short_description": "Pomodoro Technique Timer for macOS with Touch Bar support.",
+            "categories": [
+                 "productivity"
+            ],
+            "repo_url": "https://github.com/ivoronin/TomatoBar",
+            "title": "TomatoBar",
+            "icon_url": "",
+            "screenshots": [],
+            "official_site": "",
+            "languages": [
+                "swift"
+            ]
+        },
+        {
+            "short_description": "Mounts archives like disk images.",
+            "categories": [
+                "utilities"
+            ],
+            "repo_url": "https://github.com/ivoronin/ArchiveMounter",
+            "title": "ArchiveMounter",
+            "icon_url": "",
+            "screenshots": [],
+            "official_site": "",
+            "languages": [
+                "swift"
+            ]
+        },
+        {
+            "short_description": "A handy calculator with natural language parsing",
+            "categories": [
+                "utilities"
+            ],
+            "repo_url": "https://github.com/nikolaeu/Numi",
+            "title": "Numi",
+            "icon_url": "",
+            "screenshots": [],
+            "official_site": "https://numi.app",
+            "languages": [
+                "javascript"
+            ]
+        },
+        {
+            "short_description": "PowerShell is a cross-platform automation and configuration tool/framework that works well with your existing tools.",
+            "categories": [
+                "utilities"
+            ],
+            "repo_url": "https://github.com/powershell/powershell",
+            "title": "PowerShell",
+            "icon_url": "https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/Powershell_black_64.png",
+            "screenshots": [],
+            "official_site": "https://docs.microsoft.com/powershell/scripting/install/installing-powershell-core-on-macos?view=powershell-6",
+            "languages": [
+                "c_sharp"
+            ]
+        },
+        {
+            "short_description": "Multi-platform transparent client-side encryption of your files in the cloud.",
+            "categories": [
+                "security"
+            ],
+            "repo_url": "https://github.com/cryptomator/cryptomator",
+            "title": "Cryptomator",
+            "icon_url": "https://cryptomator.org/resources/presskit/cryptomator-logo.png",
+            "screenshots": [
+                "https://cryptomator.org/resources/presskit/en/mac-screenshot-1.png",
+                "https://cryptomator.org/resources/presskit/en/mac-screenshot-2.png",
+                "https://cryptomator.org/resources/presskit/en/mac-screenshot-3.png",
+                "https://cryptomator.org/resources/presskit/en/mac-screenshot-4.png"
+            ],
+            "official_site": "https://cryptomator.org/",
+            "languages": [
+                "java"
+            ]
+        },
+        {
+            "short_description": "Free to do list & time tracker for programmers & designers with Jira integration.",
+            "categories": [
+                "productivity",
+                "utilities"
+            ],
+            "repo_url": "https://github.com/johannesjo/super-productivity",
+            "title": "Super Productivity",
+            "icon_url": "https://raw.githubusercontent.com/johannesjo/super-productivity/master/build/icons/512x512.png",
+            "screenshots": [
+                "https://raw.githubusercontent.com/johannesjo/super-productivity/master/screens/screen_standard.png",
+                "https://raw.githubusercontent.com/johannesjo/super-productivity/master/screens/screen_daily-summary.png",
+                "https://raw.githubusercontent.com/johannesjo/super-productivity/master/screens/screen_worklog.png"
+            ],
+            "official_site": "https://super-productivity.com",
+            "languages": [
+                "type_script",
+                "javascript"
+            ]
+        },
+        {
+            "short_description": "Calculator for macOS which working on statusbar.",
+            "categories": [
+                "productivity",
+                "utilities"
+            ],
+            "repo_url": "https://github.com/varol/Calculeta",
+            "title": "Calculeta",
+            "icon_url": "",
+            "screenshots": [
+                "",
+                "",
+                ""
+            ],
+            "official_site": "",
+            "languages": [
+                "swift"
+            ]
+        },
+        {
+            "short_description": "No-fuss time management",
+            "categories": [
+                "Productivity"
+            ],
+            "repo_url": "https://github.com/khrykin/StrategrDesktop",
+            "title": "Strategr",
+            "icon_url": "https://khrykin.github.io/strategr/resources/Strategr.png",
+            "screenshots": [
+               "https://camo.githubusercontent.com/0aab0a8a9be68c3f98628a5c7dc2a09da176ea7a/68747470733a2f2f6b6872796b696e2e6769746875622e696f2f73747261746567722f7265736f75726365732f6d61635f6d61696e5f6f726967696e616c2e706e67",
+               "https://camo.githubusercontent.com/1e9cc6df1bafd86c7f619cca3d4b3c30f9917398/68747470733a2f2f6b6872796b696e2e6769746875622e696f2f73747261746567722f7265736f75726365732f6d61635f626c61636b5f6d61696e2e706e67"
+            ],
+            "official_site": "https://khrykin.github.io/strategr/",
+            "languages": [
+                "cpp",
+                "objective_c"
+            ]
+        },
+        {
+            "short_description": "Safari extension to save your working sessions",
+            "categories": [
+                "productivity",
+                "extensions"
+            ],
+            "repo_url": "https://github.com/AlexPerathoner/Sessions",
+            "title": "Sessions",
+            "icon_url": "https://raw.githubusercontent.com/AlexPerathoner/Sessions/master/Sessions/Assets.xcassets/AppIcon.appiconset/512-1.png",
+            "screenshots": [
+               "https://raw.githubusercontent.com/AlexPerathoner/Sessions/master/screenExample.png"
+            ],
+            "official_site": "",
             "languages": [
                 "swift"
             ]
